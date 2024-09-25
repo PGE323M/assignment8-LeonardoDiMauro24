@@ -48,3 +48,5 @@ class KozenyCarmen():
         popt, pcov = scipy.optimize.curve_fit(f, self.df['porosity'], self.df['permeability']) 
         return popt
 
+
+# %%
